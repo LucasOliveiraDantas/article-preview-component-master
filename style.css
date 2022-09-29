@@ -85,18 +85,17 @@ body{
     display: none;
 }
 .share.active{
-    position: static;
     background-color: hsl(217, 19%, 35%);
     display: flex;
     align-items: center;
-    position: absolute;
-    left: 0;
-    right:0;
-    top: 27.4rem;
+    width: 327px;
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
     padding: 1.4rem 2rem;
     gap: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .share.active .desc-share{
     text-transform: uppercase;
@@ -178,6 +177,9 @@ body{
         rotate: 45deg;
         margin-left: 5.2rem;
         margin-top: 1.78rem;
+    }
+    .icon-share-m{
+        display:none
     }
     .icon-midia-s{
         cursor: pointer;
