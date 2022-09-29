@@ -93,6 +93,7 @@ body{
     display: flex;
     align-items: center;
     padding: 1.5rem 2rem;
+    margin-top: -5rem;
     gap: 1rem;
 }
 .share.active .desc-share{
@@ -105,7 +106,7 @@ body{
     background-color: hsl(212, 23%, 69%);
     padding: 0.6rem 0.5rem;
     border-radius: 5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.58rem;
     cursor: pointer;
 }
 
@@ -151,5 +152,7 @@ body{
         background-color: hsl(217, 19%, 35%);
     }
     
-    
+    .share.active{
+        position:absolute;
+    }
 }

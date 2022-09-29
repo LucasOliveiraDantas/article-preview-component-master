@@ -7,7 +7,7 @@ const shareArea = document.querySelector(".share")
 iconShare.addEventListener('click', function(){
     shareArea.classList.toggle('active')
     iconShare.classList.toggle('active')
-    InfoPerfil.classList.toggle('off')
+    InfoPerfil.classList.toggle('')
 }) 
 
 iconShareM.addEventListener('click', function(){
