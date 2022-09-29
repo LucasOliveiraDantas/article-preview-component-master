@@ -154,5 +154,28 @@ body{
     
     .share.active{
         position:absolute;
+        right: 4.6rem;
+        top: 19.5rem;
+        padding: 1.2rem 2.2rem;
+        border-radius: 0.6rem;
+        gap: 1.2rem;
+    }
+    .share.active .desc-share{
+        font-size: 16px;
+    }
+    .share.active .icon-share-m{
+        display: none;
+    }
+    .notch{
+        width:25px;
+        height: 25px;
+        background-color: hsl(217, 19%, 35%);
+        position: absolute;
+        margin-left: 5rem;
+        margin-top: 3.5rem;
+        rotate: 44deg;
+    }
+    .icon-midia-s{
+        cursor: pointer;
     }
 }
