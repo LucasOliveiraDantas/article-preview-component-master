@@ -27,7 +27,6 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.6rem;
     box-shadow: 0rem 0.1rem 1.5rem hsla(212, 23%, 69%, 0.349);
-    position: relative;
 }
 .banner{
     width: 100%;
@@ -53,8 +52,11 @@ body{
     font-size: 13px;
     margin-top: 1rem;
     color: hsl(214, 17%, 51%);
-    width: 99%;
+    width: 98%;
     line-height: 1.3rem;
+}
+.section-perfil.off{
+    display:none;
 }
 .section-perfil{
     margin-top: 2rem;
@@ -80,35 +82,33 @@ body{
     margin-left: 4.5rem;
     cursor: pointer;
 }
-
 .share{
     display: none;
 }
 .share.active{
-    background-color: hsl(217, 19%, 35%);
-    display: flex;
-    align-items: center;
-    width: 327px;
+    background-color:hsl(217, 19%, 35%);
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
-    padding: 1.4rem 2rem;
+
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
     gap: 1rem;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 .share.active .desc-share{
     text-transform: uppercase;
+    font-size: 13.5px;
     letter-spacing: 0.3rem;
-    color:hsl(212, 23%, 69%);
+    color: hsl(212, 23%, 69%);
 }
-
 .share.active .icon-share-m{
     background-color: hsl(212, 23%, 69%);
-    padding: 0.5rem  0.45rem;
+    padding: 0.6rem 0.5rem;
     border-radius: 5rem;
-    margin-left: 1.8rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
 }
+
 @media screen and (min-width: 1024px){
     .area-main{
         width: 100%;
@@ -150,38 +150,6 @@ body{
     .icon-share.active{
         background-color: hsl(217, 19%, 35%);
     }
-    .share{
-        display: none;
-    }
-    .share.active{
-        position: absolute;
-        background-color: hsl(217, 19%, 35%);
-        margin-left: 14rem;
-        margin-top: 5.8rem;
-        display: flex;
-        padding: 1.15rem 2rem;
-        gap: 1rem;
-        border-radius: 0.65rem;
-        
-    }
-    .share.active .desc-share{
-        text-transform: uppercase;
-        letter-spacing: 0.4rem;
-        color:hsl(212, 23%, 69%);
-    }
-    .share.active .notch{
-        width: 20px;
-        height: 20px;
-        background-color: hsl(217, 19%, 35%);
-        position: absolute;
-        rotate: 45deg;
-        margin-left: 5.2rem;
-        margin-top: 1.78rem;
-    }
-    .icon-share-m{
-        display:none
-    }
-    .icon-midia-s{
-        cursor: pointer;
-    }
+    
+    
 }
