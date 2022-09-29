@@ -25,6 +25,7 @@ body{
         background-color: hsl(0, 0%, 100%);
         border-radius: 0.6rem;
         box-shadow: 0rem 0.1rem 1.5rem hsla(212, 23%, 69%, 0.349);
+        min-width: 327px;
     }
     .banner{
         width: 100%;
@@ -95,6 +96,7 @@ body{
         padding: 1.5rem 2rem;
         margin-top: -5rem;
         gap: 1rem;
+        
     }
     .share.active .desc-share{
         text-transform: uppercase;
