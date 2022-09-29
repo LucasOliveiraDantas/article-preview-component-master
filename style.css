@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
-
-
-
 *,
 *::before,
 *::after{
@@ -16,98 +13,103 @@ body{
     font-family: 'Manrope', sans-serif;
 
 }
-.area-main{
-    display: flex;
-    background-color: hsl(210, 46%, 95%);
-}
-.container-main{
-    display: flex;
-    flex-direction: column;
-    margin: 4.55rem 1.5rem ;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 0.6rem;
-    box-shadow: 0rem 0.1rem 1.5rem hsla(212, 23%, 69%, 0.349);
-}
-.banner{
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 0.6rem;
-    border-top-right-radius: 0.6rem;
-    background-image: url(/images/drawers.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0rem 23.5%;
-}
-
-.info{
-    display: grid;
-    margin: 2.2rem 2rem 1.5rem 2rem;
-}
-.title-info{
-    font-size: 16.4px;
-    color: hsl(217, 19%, 35%);
-    line-height: 1.5rem;
-}
-.desc-info{
-    font-size: 13px;
-    margin-top: 1rem;
-    color: hsl(214, 17%, 51%);
-    width: 98%;
-    line-height: 1.3rem;
-}
-.section-perfil.off{
-    display:none;
-}
-.section-perfil{
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-}
-.img-perfil{
-    width: 40px;
-    height: auto;
-    border-radius: 5rem;
-}
-.info-perfil{
-    margin-left: 1rem;
-}
-.name-perfil{
-    font-weight: 700;
-    color: hsl(217, 19%, 35%);
-}
-.date-perfil{
-    color: hsl(212, 23%, 69%);
-}
-.icon-share {
-    margin-left: 4.5rem;
-    cursor: pointer;
-}
-.share{
-    display: none;
-}
-.share.active{
-    background-color:hsl(217, 19%, 35%);
-    border-bottom-left-radius: 0.6rem;
-    border-bottom-right-radius: 0.6rem;
-
-    display: flex;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    margin-top: -5rem;
-    gap: 1rem;
-}
-.share.active .desc-share{
-    text-transform: uppercase;
-    font-size: 13.5px;
-    letter-spacing: 0.3rem;
-    color: hsl(212, 23%, 69%);
-}
-.share.active .icon-share-m{
-    background-color: hsl(212, 23%, 69%);
-    padding: 0.6rem 0.5rem;
-    border-radius: 5rem;
-    margin-left: 1.58rem;
-    cursor: pointer;
+@media screen and (min-width: 360px){
+    .area-main{
+        display: flex;
+        background-color: hsl(210, 46%, 95%);
+    }
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        margin: 4.55rem 1.5rem ;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0.6rem;
+        box-shadow: 0rem 0.1rem 1.5rem hsla(212, 23%, 69%, 0.349);
+    }
+    .banner{
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 0.6rem;
+        border-top-right-radius: 0.6rem;
+        background-image: url(/images/drawers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0rem 23.5%;
+    }
+    
+    .info{
+        display: grid;
+        margin: 2.2rem 2rem 1.5rem 2rem;
+    }
+    .title-info{
+        font-size: 16.4px;
+        color: hsl(217, 19%, 35%);
+        line-height: 1.5rem;
+    }
+    .desc-info{
+        font-size: 13px;
+        margin-top: 1rem;
+        color: hsl(214, 17%, 51%);
+        width: 98%;
+        line-height: 1.3rem;
+    }
+    .section-perfil.off{
+        display:none;
+    }
+    .section-perfil{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .img-perfil{
+        width: 40px;
+        height: 40px;
+        border-radius: 5rem;
+    }
+    .info-perfil{
+        margin-left: 1rem;
+    }
+    .name-perfil{
+        font-weight: 700;
+        color: hsl(217, 19%, 35%);
+    }
+    .date-perfil{
+        color: hsl(212, 23%, 69%);
+    }
+    .icon-share {
+        margin-left: 4.5rem;
+        cursor: pointer;
+        max-width: 15px;
+        max-height: 13px;
+    }
+    .share{
+        display: none;
+    }
+    .share.active{
+        background-color:hsl(217, 19%, 35%);
+        border-bottom-left-radius: 0.6rem;
+        border-bottom-right-radius: 0.6rem;
+    
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 2rem;
+        margin-top: -5rem;
+        gap: 1rem;
+    }
+    .share.active .desc-share{
+        text-transform: uppercase;
+        font-size: 13.5px;
+        letter-spacing: 0.3rem;
+        color: hsl(212, 23%, 69%);
+    }
+    .share.active .icon-share-m{
+        background-color: hsl(212, 23%, 69%);
+        padding: 0.6rem 0.5rem;
+        border-radius: 5rem;
+        margin-left: 1.58rem;
+        cursor: pointer;
+    }
+    
 }
 
 @media screen and (min-width: 1024px){
@@ -142,18 +144,22 @@ body{
     .desc-info{
         width: 95%;
     }
+
+    
     .icon-share {
         margin-left: 10rem;
         background-color: hsl(210, 46%, 95%);
         padding: 0.65rem  0.6rem;
         border-radius: 5rem;
+        max-width: 34.19px;
+        max-height: 33.78px;
     }
     .icon-share.active{
         background-color: hsl(217, 19%, 35%);
     }
     
     .share.active{
-        position:absolute;
+        position: fixed;
         right: 4.6rem;
         top: 19.5rem;
         padding: 1.2rem 2.2rem;
